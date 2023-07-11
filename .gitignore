@@ -1,0 +1,22 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Compiled Object files
+*.test
+*.out
+
+# Cache files
+go.work
+vendor/
+
+# IDEs and editors
+.idea/*
+.vscode/*
+
+# OS generated files
+.DS_Store
+Thumbs.db

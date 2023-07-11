@@ -1,0 +1,29 @@
+run:
+  concurrency: 4
+  timeout: 5m
+  skip-dirs:
+    - .github
+    - .git
+linters:
+  enable:
+    - bodyclose
+    - goconst
+    - gocyclo
+    - godot
+    - gofmt
+    - goimports
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - lll
+    - misspell
+    - nestif
+    - nilnil
+    - noctx
+    - nosnakecase
+    - predeclared
+    - staticcheck
+    - stylecheck
+    - unconvert
+    - unparam
